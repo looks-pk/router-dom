@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+}
+.dark-theme {
+  --primary-color: #ffffff;
+  --secondary-color: #241f1f;
+}
+.peelas {
+  --primary-color: #ff7700e0;
+  --secondary-color: #d4ff00;
+}
+.neelas {
+  --primary-color: #ffffffe0;
+  --secondary-color: #1900ff;
+}
+* {
+  background-color: var(--secondary-color);
+}
+p {
+  color: var(--primary-color);
+}
+link {
+  color: var(--primary-color);
+}
+.navul {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+li {
+  background-color: black;
+  color: white;
+  list-style: none;
+  padding: 13px;
+  margin: 5px 1px;
+  border-radius: 10px;
+}
+img{
+  margin: 10px;
+  box-shadow: 0.5px 0.5px red, 0.5em 0 1em olive;
+  width: 30vw;
+  height: 30vh;
+}
+.cont1 {
+  display: flex;
+  height: 70vh;
+  width: 49vw;
+  border: 2px solid rebeccapurple;
+  margin-top: 5px;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+.cont2 {
+  display: flex;
+  height: 70vh;
+  width: 49vw;
+  margin-left: 2px;
+  border: 2px solid red;
+  justify-content: end;
+}
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100px;
+  text-transform: capitalize;
+}
+
+.light-theme {
+  --main-heading: rgb(212, 226, 94);
+  --para-clr: white;
+}
+.piccontainer {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: center;
+}
+.bgc{
+  text-align: center;
+  margin: 30px 0px;
+  text-transform: capitalize;
+  border: 2px solid red;
+  box-shadow: 0.5px 0.5px red, 0.5em 0 1em olive;
+}
+
+.vid{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+iframe{
+  box-shadow:  0.5px 0.5px red, 0.5em 0 3em rgb(38, 38, 33);
+}
+.linkline{
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: large;
+}
